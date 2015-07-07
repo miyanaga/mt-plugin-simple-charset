@@ -1,0 +1,12 @@
+id: SimpleCharset
+name: SimpleCharset
+version: 0.1.0
+description: Provides mt:Charset to convert charset and auto charset conversion by file extension.
+config_settings:
+    CharsetByExt:
+        default:
+callbacks:
+    build_page: $SimpleCharset::MT::Plugin::SimpleCharset::on_build_page
+tags:
+    block:
+        SimpleCharset: $SimpleCharset::MT::Plugin::SimpleCharset::tag_charset
