@@ -1,7 +1,7 @@
 id: SimpleCharset
 name: SimpleCharset
 version: 0.1.0
-description: Provides mt:Charset to convert charset and auto charset conversion by file extension.
+description: Provides mt:SimpleCharset to convert charset and auto charset conversion by file extension.
 config_settings:
     CharsetByExt:
         default:
